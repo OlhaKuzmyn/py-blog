@@ -3,7 +3,7 @@ from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
 
 from blog.forms import CommentaryForm
-from blog.models import Post, Commentary
+from blog.models import Post
 
 
 def index(request: HttpRequest) -> HttpResponse:
